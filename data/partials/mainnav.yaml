@@ -106,13 +106,6 @@ main:
             url: "agent/autodiscovery/troubleshooting"
           - name: "Cluster Checks"
             url: "agent/autodiscovery/clusterchecks"
-      - name: "Log Collection "
-        url: "agent/logs"
-        children:
-          - name: "Advanced Log Collection"
-            url: "agent/logs/advanced_log_collection"
-          - name: "Proxy"
-            url: "agent/logs/proxy"
       - name: "Proxy"
         url: "agent/proxy"
       ## Upgrade to Agent v6
@@ -420,6 +413,8 @@ main:
       - name: "Log Collection & Integrations"
         url: "logs/log_collection/"
         children:
+          - name: "Datadog Agent"
+            url: "logs/log_collection/agent"
           - name: "Browser"
             url: "logs/log_collection/javascript/"
           - name: "Csharp"
@@ -443,6 +438,8 @@ main:
       - name: "Processing"
         url: "logs/processing/"
         children:
+          - name: "Agent Processing"
+            url: "logs/processing/agent_processing"
           - name: "Pipelines"
             url: "logs/processing/pipelines/"
           - name: "Processors"

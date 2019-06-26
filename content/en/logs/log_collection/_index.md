@@ -229,12 +229,12 @@ Datadog automatically parses JSON-formatted logs. For this reason, if you have c
 
 {{< partial name="whats-next/whats-next.html" >}}
 
-[1]: /agent/logs
-[2]: /agent/logs/#tail-existing-files
-[3]: /agent/logs/#stream-logs-through-tcp-udp
-[4]: /agent/logs/#filter-logs
-[5]: /agent/logs/#scrub-sensitive-data-in-your-logs
-[6]: /agent/logs/#multi-line-aggregation
+[1]: /logs/log_collection/agent
+[2]: /logs/log_collection/agent/#tail-existing-files
+[3]: /logs/log_collection/agent/#stream-logs-through-tcp-udp
+[4]: /logs/log_collection/agent/#filter-logs
+[5]: /logs/log_collection/agent/#scrub-sensitive-data-in-your-logs
+[6]: /logs/log_collection/agent/#multi-line-aggregation
 [7]: /integrations/rsyslog
 [8]: /integrations/syslog_ng
 [9]: /integrations/nxlog

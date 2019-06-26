@@ -476,4 +476,4 @@ Coming Soon. Reach out to [the Datadog support team][1] to learn more.
 
 {{< partial name="whats-next/whats-next.html" >}}
 
-[1]: /agent/logs/#enabling-log-collection-from-integrations
+[1]: /logs/log_collection/agent/#enabling-log-collection-from-integrations

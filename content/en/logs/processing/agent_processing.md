@@ -1,7 +1,7 @@
 ---
-title: Advanced Log Collection
+title: Agent Log processing
 kind: documentation
-description: Use the Datadog Agent to collect your logs and send them to Datadog
+description: Use the Datadog Agent to process your logs before sending them to Datadog
 further_reading:
 - link: "logs/processing"
   tag: "Documentation"
@@ -20,7 +20,7 @@ further_reading:
   text: "Logging without limits"
 ---
 
-Apply log processing rules to a specific log collection configurations to:
+Apply log processing rules to a specific Agent log collection configurations to:
 
 * [Filter logs](#filter-logs)
 * [Scrub sensitive data from your logs](#scrub-sensitive-data-from-your-logs)
@@ -33,7 +33,7 @@ To apply a processing rule to all logs collected by a Datadog Agent, see the [Gl
 
 ## Filter logs
 
-To send only a specific subset of logs to Datadog use the `log_processing_rules` parameter in your configuration file with the **exclude_at_match** or **include_at_match** `type`.
+To send only a specific subset of logs to Datadog with the Agent use the `log_processing_rules` parameter in your configuration file with the **exclude_at_match** or **include_at_match** `type`.
 
 {{< tabs >}}
 {{% tab "exclude_at_match" %}}

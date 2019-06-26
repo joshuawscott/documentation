@@ -4,7 +4,6 @@ kind: Documentation
 description: Datadog Agent を設定して、ホスト、コンテナー、およびサービスからログを収集します。
 aliases:
   - /ja/guides/logs/
-  - /ja/agent/logs/
 further_reading:
   - link: logs/log_collection
     tag: Documentation

@@ -32,7 +32,7 @@ The Log Management solution is an all-in-one comprehensive solution that compris
 
 {{< partial name="whats-next/whats-next.html" >}}
 
-[1]: /agent/logs
+[1]: /logs/log_collection/agent
 [2]: /logs/processing
 [3]: /logs/live_tail
 [4]: /logs/explore
